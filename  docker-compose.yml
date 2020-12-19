@@ -1,0 +1,13 @@
+version: "3"
+services:
+  docs:
+    image: jekyll/jekyll:latest
+    container_name: quarkus-guide
+    command: jekyll serve
+    environment: 
+      - JEKYLL_ENV:production
+    volumes:
+      - $PWD/:/srv/jekyll
+      - $PWD/vendor/bundle:/usr/local/bundle
+    ports:
+      - 4000:4000

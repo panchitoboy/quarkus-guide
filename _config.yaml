@@ -1,0 +1,14 @@
+title: Quarkus guide
+description: Guidelines for Rio Angular projets
+repository: https://github.com/panchitoboy/quarkus-guide/
+
+remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - "Gemfile*"
+  - "docker-compose.yml"
+  - "vendor"
+
