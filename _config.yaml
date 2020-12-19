@@ -1,6 +1,6 @@
 title: Quarkus guide
 description: Guidelines for Rio Angular projets
-repository: https://github.com/panchitoboy/quarkus-guide/
+repository: panchitoboy/quarkus-guide
 
 remote_theme: rundocs/jekyll-rtd-theme
 
